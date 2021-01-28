@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width:100%;
+    min-height: 50vh;
+}
+main{
+    display: flex;
+}
+section{
+    width:50%;
+    min-height: 50vh;
+}
+
+.a{
+   background-color:  hsl(179, 62%, 43%);
+}
+
+.b{
+    background-color:hsl(179, 68%, 50%);
+}
+h1{
+    padding: 3rem 0rem 0rem 5rem;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+h3{
+    padding: 3rem 0rem 0rem 5rem;
+    font-size: 3rem;
+}
+header h1{ 
+    color:hsl(179, 62%, 43%);
+}
+
+header h3{
+    color: hsl(71, 73%, 54%);
+}
+header p{
+    padding: 3rem 0rem 0rem 5rem;
+    font-size: 2rem;
+    color: hsl(218, 22%, 67%);
+    line-height: 3rem;
+}
+
+section{
+    color: hsl(204, 43%, 93%);
+}
+
+ul{
+    list-style: none;
+}
+
+
+section div{
+    padding: 1rem 0rem 0rem 5rem;
+}
+
+.money{
+    padding: 0rem 2rem 0rem 0rem;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+
+section p{
+    padding: 3rem 0rem 0rem 5rem;
+    font-size: 2rem;
+}
+
+
+li{
+    padding: 1rem 0rem 0rem 5rem;
+    font-size: 1.2rem;
+}
+
+.cta{
+    padding: 3rem 0rem 0rem 5rem;
+    
+}
+
+button{
+    border: none;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 0.5rem;
+    height: 5rem;
+    width: 30rem;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 700px)
+{
+    header{
+        height: 30vh;
+    }
+    main{
+        flex-direction: column;
+    }
+    section{
+        width: 100%;
+    }
+    h1{
+        font-size: 2rem;
+        padding: 2rem 0rem 0rem 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+        padding: 2rem 0rem 0rem 2rem;
+    }
+    header p{
+        font-size: 0.8rem;
+        padding: 2rem 0rem 0rem 2rem;
+        line-height: 1.5rem;
+    }
+    .cta{
+        padding: 2rem 0rem 2rem 1.5rem;
+    }
+    button{
+        height: 3rem;
+        width: 20rem;
+        font-size: 1rem;
+    }
+    section div{
+        padding: 1rem 0rem 0rem 2rem;
+    }
+    .money{
+        padding: 0rem 1rem 0rem 0rem;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    section p{
+        padding: 2rem 0rem 0rem 2rem;
+        font-size: 1.5rem;
+    }
+    li{
+        padding: 0.75rem 0rem 0rem 2rem;
+        font-size: 0.9rem;
+    }
+    
+}
