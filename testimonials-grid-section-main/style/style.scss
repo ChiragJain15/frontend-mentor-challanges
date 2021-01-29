@@ -1,0 +1,82 @@
+@import 'variable';
+@import 'reset';
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: grid;
+    padding: 4rem 1rem;
+    background: hsl(210, 46%, 95%);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "a a b c"
+    "d e e c";
+    grid-gap: 1.5rem;
+    & > div{
+        border-radius: 1.5rem;
+        padding: 2rem;
+        box-shadow: 4px 4px 5px 0px rgba(53, 51, 51,0.3);
+        color: white;
+    }
+}
+img{
+    border-radius: 50%;
+    padding: 1rem;
+}
+.person{
+    display: flex;
+    align-items: center;
+}
+.position{
+    opacity: 0.5;
+}
+p{
+    opacity: 0.7;
+}
+.a{
+    grid-area: a;
+    background-color: $Moderateviolet;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position-x: 30rem;
+}
+
+.b{
+    grid-area: b;
+    background-color: $grayishblue;
+}
+
+.c{
+    background-color: white;
+    grid-area: c;
+    color: $blackishblue;
+}
+
+.d{
+    background-color: white;
+    grid-area: d;
+    color: $blackishblue;
+}
+
+.e{
+    grid-area: e;
+    background-color: hsl(219, 29%, 14%);
+}
+
+h1{
+    padding: 1rem;
+    font-weight: $normal;
+}
+
+p{
+    padding: 1rem;
+
+}
+
+@media screen and (max-width: 900px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
