@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+
+button{
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    li{
+        padding-right: 1rem;
+        padding-bottom: 0.5rem;
+    }
+}
