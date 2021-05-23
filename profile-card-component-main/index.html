@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link
       rel="icon"
       type="image/png"
@@ -18,33 +17,34 @@
     <title>Profile card component</title>
   </head>
   <body>
-    <span id="top_bg"><img src=".images/bg-pattern-top.svg" /></span>
-    <span id="bottom_bg"><img src="./images/bg-pattern-bottom.svg" /></span>
+    <div class="topbg">
+      <img src="./images/bg-pattern-top.svg" />
+    </div>
+    <div class="bottombg">
+      <img src="./images/bg-pattern-bottom.svg" />
+    </div>
     <div class="card">
-      <div class="card_bg">
-        <img src="./images/bg-pattern-card.svg" alt="cardbg" />
+      <div class="cardbg">
+        <img src="./images/bg-pattern-card.svg" />
       </div>
-      <div>
-        <img src="./images/image-victor.jpg" alt="image" class="image" />
-      </div>
-      <div class="content">
-        <div>
-          <span class="bold">Victor Crest</span><span class="age">26</span>
-        </div>
-        <div class="a">London</div>
-        <hr style="height: 0.1px; color: hsl(227, 10%, 46%)" />
-        <div class="details">
-          <div>
-            <div class="bold">80K</div>
-            <span class="a">Followers</span>
+      <div class="circle"></div>
+      <div class="container">
+        <div class="name">Victor Crest <span class="age">26</span></div>
+        <div class="country">London</div>
+        <div class="wrapper">
+          <div class="stats">
+            <div class="stat">80K</div>
+            <div class="statH">Followers</div>
           </div>
-          <div>
-            <div class="bold">803K</div>
-            <span class="a">Likes</span>
+          <div class="stats">
+            <div class="stat">803K</div>
+            <div class="statH">Likes</div>
           </div>
-          <div>
-            <div class="bold">1.4K</div>
-            <span class="a">Photos</span>
+          <div class="stats">
+            <div class="stat">1.4K</div>
+            <div class="statH">Photos</div>
+          </div>
+            
           </div>
         </div>
       </div>
