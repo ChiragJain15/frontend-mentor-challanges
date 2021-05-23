@@ -5,9 +5,9 @@ const ball = document.querySelector("#ball");
 const overs = document.querySelectorAll(".overview_card");
 const cards = document.querySelectorAll(".card");
 
-const button = document.getElementById("button");
-console.log(overs);
-document.addEventListener("click", () => {
+const button = document.getElementsByClassName("theme_btn");
+
+button[0].addEventListener("click", () => {
   topbg.classList.toggle("white");
   body.classList.toggle("text");
   main.classList.toggle("mainbg");

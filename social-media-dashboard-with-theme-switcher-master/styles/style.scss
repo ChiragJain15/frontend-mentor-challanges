@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: hsl(232, 19%, 15%);
-  min-height: 20vh;
+  height: 20vh;
   nav {
     width: 80%;
     margin: auto;
@@ -46,7 +46,6 @@ main {
   .card_container {
     width: 76%;
     margin: auto;
-    transform: translateY(-3rem);
     min-height: 27.5vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -155,14 +154,14 @@ main {
       }
     }
   }
-  main{
-  .card_container {
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    grid-template-columns: 1fr;
+  main {
+    .card_container {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      grid-template-columns: 1fr;
+    }
   }
-}
   .card {
     margin: 1rem;
     padding: 3rem;
@@ -173,21 +172,22 @@ main {
   }
 }
 
-.white{
+.white {
   background-color: hsl(225, 100%, 98%);
 }
 
-.text{
+.text {
   color: hsl(230, 17%, 14%);
 }
-.mainbg{
+.mainbg {
   background-color: white;
 }
 
-.ballanim{
+.ballanim {
   transform: translateX(1.4rem);
+  background-color: white !important;
 }
 
-.card_bg{
-  background-color:  hsl(227, 47%, 96%) !important;
+.card_bg {
+  background-color: hsl(227, 47%, 96%) !important;
 }
