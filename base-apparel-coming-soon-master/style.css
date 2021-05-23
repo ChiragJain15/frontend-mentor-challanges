@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 82.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+main {
+  width: 50%;
+  height: 80vh;
+  background-image: url(./images/bg-pattern-desktop.svg);
+}
+
+aside {
+  width: 40%;
+  height: 80%;
+}
