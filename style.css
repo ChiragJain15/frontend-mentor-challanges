@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffa45c;
+}
+
+a {
+  text-decoration: none;
+  color: #e8ffe8;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: 5rem;
+}
+
+ul li {
+  margin-top: 0.5rem;
+}
+
+header {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  background-color: #424242;
+}
+
+header h1 {
+  width: 90%;
+  margin: auto;
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: #e8ffe8;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
