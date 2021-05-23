@@ -15,7 +15,7 @@ body {
 }
 main {
   display: flex;
-  height: 60%;
+  height: 65%;
   width: clamp(50vw, 50vw, 90vw);
 }
 .Sedans {
