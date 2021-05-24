@@ -5,25 +5,65 @@
 }
 
 html {
-  font-size: 82.5%;
+  font-size: 62.5%;
 }
 
 body {
   min-height: 100vh;
   font-family: "Josefin Sans", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
 }
 
 main {
-  width: 50%;
-  height: 80vh;
+  min-height: 100vh;
   background-image: url(./images/bg-pattern-desktop.svg);
 }
 
-aside {
-  width: 40%;
-  height: 80%;
+#logo {
+  padding: 2rem;
+  width: 15rem;
+}
+
+h1 {
+  text-align: center;
+  color: hsl(0, 6%, 24%);
+}
+
+.mainh {
+  padding: 5rem 10rem 3rem 10rem;
+  font-size: 2rem;
+}
+
+.h {
+  color: hsl(0, 36%, 70%);
+  font-weight: 300;
+}
+
+p {
+  color: hsl(0, 36%, 70%);
+  text-align: center;
+  font-size: 2rem;
+  width: clamp(30ch, 50%, 75ch);
+  margin: auto;
+}
+
+input {
+  padding: 1rem;
+
+  border: solid 0.05px hsl(0, 0%, 74%);
+  border-radius: 2rem;
+}
+
+.input {
+  width: 70%;
+  margin: 4rem auto 0 auto;
+  display: flex;
+}
+
+button {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  width: 8rem;
+  height: 4rem;
+  border-radius: 2rem;
+  border: none;
+  transform: translate(-100%, 10%);
 }
