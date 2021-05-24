@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  transition: all ease-in-out 0.25s;
 }
 
 html {
@@ -14,6 +13,8 @@ body {
   display: grid;
   place-items: center;
   font-family: "Libre Franklin", sans-serif;
+  transition: all ease-in-out 0.25s;
+  text-align: center;
 }
 
 main {
@@ -117,4 +118,44 @@ a:hover {
   color: white;
 }
 
+@media screen and (max-width: 800px) {
+  .input {
+    flex-direction: column;
+  }
 
+  input {
+    margin-bottom: 1rem;
+    width: 40rem;
+    padding: 1rem;
+  }
+
+  button {
+    width: 40rem;
+    margin-left: 0;
+    padding: 1rem;
+  }
+  .ill {
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .input {
+    flex-direction: column;
+  }
+
+  input {
+    margin-bottom: 1rem;
+    width: 30rem;
+    padding: 1rem;
+  }
+
+  button {
+    width: 30rem;
+    margin-left: 0;
+    padding: 1rem;
+  }
+  .ill {
+    width: 30rem;
+  }
+}
